@@ -1,68 +1,3 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu3
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: deepin_unstable
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: deepin_23
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: deepin_25
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
 - repo: debian_11
   subrepo: bullseye/main
   srcname: dpkg-awk
@@ -128,6 +63,58 @@
     - schot@a-eskwadraat.nl
   categories:
     - devel
+- repo: deepin_23
+  subrepo: main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu2
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: deepin_25
+  subrepo: main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu2
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu2
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu3
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
 - repo: kali_rolling
   subrepo: main
   srcname: dpkg-awk
@@ -155,7 +142,7 @@
   categories:
     - devel
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: dpkg-awk
   binnames:
     - dpkg-awk
@@ -168,7 +155,7 @@
   categories:
     - devel
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: dpkg-awk
   binnames:
     - dpkg-awk
