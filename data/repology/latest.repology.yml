@@ -1,3 +1,107 @@
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu3
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu2
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu3
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu2
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu3
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: raspbian_testing
+  subrepo: main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu3
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: pardus_21
+  subrepo: main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu2
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot/main
+  srcname: dpkg-awk
+  binnames:
+    - dpkg-awk
+  visiblename: dpkg-awk
+  version: "1.2"
+  origversion: 1.2+nmu3
+  status: unique
+  maintainers:
+    - schot@a-eskwadraat.nl
+  categories:
+    - devel
 - repo: debian_11
   subrepo: bullseye/main
   srcname: dpkg-awk
@@ -116,123 +220,6 @@
   categories:
     - devel
 - repo: kali_rolling
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu3
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: pardus_21
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu3
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu3
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu3
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu2
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: dpkg-awk
-  binnames:
-    - dpkg-awk
-  visiblename: dpkg-awk
-  version: "1.2"
-  origversion: 1.2+nmu3
-  status: unique
-  maintainers:
-    - schot@a-eskwadraat.nl
-  categories:
-    - devel
-- repo: raspbian_testing
   subrepo: main
   srcname: dpkg-awk
   binnames:
